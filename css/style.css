@@ -66,14 +66,26 @@ section a
 
 section .btnone
 {
+    color: #fff;
+    background-color: #00b894;
+}
+
+.btnone:hover
+{
     background-color: #fff;
-    color: #000;
+    color: #000;    
 }
 
 section .btntwo
 {
     color: #fff;
     background-color: #00b894;
+}
+
+.btntwo:hover
+{
+    background-color: #fff;
+    color: #000;    
 }
 
 section h1
@@ -98,3 +110,19 @@ nav .logo-green
 {
     color: #00c568;
 }
+
+/* .change_content:after
+{
+    content: "" ;
+    animation: changetext 10s infinite none;
+}
+
+@keyframes changetext 
+{
+    100%{content: "Water Treatement Plant";}
+    16%{content: "Sludge Settlement Tank";}
+    33%{content: "Pump House";}
+    50%{content: "Staff Quarter";}
+    66%{content: "Water Storage Tank";}
+    84%{content: "and Other Civil Construction buildings";}
+} */
